@@ -1,0 +1,17 @@
+/**
+* Function For change Hash algo in application 
+*
+*
+* @Version		0.1
+* @Author		Sanguinarius
+* @Contact		sanguinarius.contact@gmail.com
+* @Copyright	2011-2069 Kalkulators knights and sanguinarius
+* @Standard		http://pear.php.net/manual/en/standards.php
+*
+**/
+
+::::::	USAGE	::::::
+
+$init = new Hash_Algo();
+
+echo $init->hashPass($password, "Njord");
